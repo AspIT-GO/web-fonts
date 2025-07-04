@@ -7,9 +7,15 @@
   font-style: normal;
 }
 
+/* Font fra web-server */
 @font-face {
   font-family: "Inconsolata";
   src: url(./assets/fonts/Inconsolata_Condensed-Regular.ttf);
+}
+@font-face {
+  font-family: "Inconsolata";
+  src: url(./assets/fonts/Inconsolata_Condensed-Black.ttf);
+  font-weight: 500;
 }
 
 .inconsolata-regular {
