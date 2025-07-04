@@ -23,3 +23,20 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Font fra web-server med variable font */
+@font-face {
+  font-family: "JobClarendon";
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf");
+  font-weight: 100 900;
+}
+
+.jobClarendon-regular {
+  font-family: "JobClarendon";
+  font-weight: 400;
+}
+
+.jobClarendon-bold {
+  font-family: "JobClarendon";
+  font-weight: 700;
+}
